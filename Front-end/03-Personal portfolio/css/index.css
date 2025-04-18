@@ -117,13 +117,16 @@ main h1 {
 
 .cards-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 3em;
 }
 
 .card {
+    display: flex;
+    width: 18em;
+    flex-wrap: wrap;
     background-color: #fff;
-    border-radius: 0.2em;
+    border-radius: 0.5em;
     box-shadow: 0.1em 0.1em 0.5em 0.1em;
     padding: 1.3em;
 }
@@ -134,8 +137,19 @@ main h1 {
     transition: transform 4s ease;
 }
 
-.card p:nth-child(2), .card p:nth-child(3){
+.card p:nth-child(2){
     color: #999;
+}
+
+footer {
+    text-align: center;
+    margin: 2em;
+}
+
+footer small {
+    color: #fff;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 
