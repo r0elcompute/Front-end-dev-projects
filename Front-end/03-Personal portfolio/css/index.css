@@ -63,7 +63,50 @@ main h1 {
 .flex-container {
     display: flex;
     justify-content: space-around;
+    flex: 1;
     gap: 10em;
+    border-top: 1px double #fff;
+    border-bottom: 1px solid #fff;
+    padding: 2em;
+}
+
+/* .projects { */
+    /* border: 1px; */
+/* } */
+
+.projects h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.projects ul {
+    list-style-type: none;
+    line-height: 3em;
+}
+
+.projects ul li {
+    border-bottom: 1px solid black;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    padding: 0 2em;
+}
+
+.experience div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.experience div a:hover {
+    text-decoration: underline;
+}
+
+.education ul {
+    list-style-type: none;
 }
 
 
