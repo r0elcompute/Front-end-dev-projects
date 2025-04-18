@@ -15,6 +15,7 @@ body {
 #navbar {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 0.5em;
     margin-bottom: 7em;
@@ -28,6 +29,7 @@ body {
 #navbar ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     gap: 2em;
     list-style-type: none;
 }
@@ -46,6 +48,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 7em;
@@ -55,6 +58,12 @@ main h1 {
     color: khaki;
     font-size: 6em;
     font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10em;
 }
 
 
