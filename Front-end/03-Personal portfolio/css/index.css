@@ -8,13 +8,13 @@ html {
 }
 
 body {
-    background-color: rgba(13, 13, 128, 0.705);
+    background-color: #023047;
     box-sizing: border-box;
 }
 
 #navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 0.5em;
@@ -24,6 +24,7 @@ body {
 #navbar span {
     font-weight: bold;
     font-size: 2em;
+    color: #fff;
 }
 
 #navbar ul {
@@ -35,14 +36,14 @@ body {
 }
 
 #navbar ul li a {
-    color: #fff;
+    color: #219ebc;
     font-size: 1.3em;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #navbar ul li a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 main {
@@ -55,7 +56,7 @@ main {
 }
 
 main h1 {
-    color: khaki;
+    color: #fb8500;
     font-size: 6em;
     font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
@@ -68,6 +69,14 @@ main h1 {
     border-top: 1px double #fff;
     border-bottom: 1px solid #fff;
     padding: 2em;
+}
+
+.flex-container h2, .reviews h2 {
+    color: #fff;
+}
+
+.flex-container p, .flex-container ul li{
+    color: #8ecae6;
 }
 
 /* .projects { */
@@ -94,6 +103,10 @@ main h1 {
     border-left: 2px solid #fff;
     border-right: 2px solid #fff;
     padding: 0 2em;
+}
+
+.experience h3 {
+    color: #fff;
 }
 
 .experience div a {
@@ -125,7 +138,8 @@ main h1 {
     display: flex;
     width: 18em;
     flex-wrap: wrap;
-    background-color: #fff;
+    background-color: #caf0f8;
+    color: #2d2d2d;
     border-radius: 0.5em;
     box-shadow: 0.1em 0.1em 0.5em 0.1em;
     padding: 1.3em;
