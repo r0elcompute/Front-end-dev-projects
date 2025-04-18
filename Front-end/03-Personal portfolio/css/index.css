@@ -168,12 +168,14 @@ main h1 {
     border-radius: 0.5em;
     box-shadow: 0.1em 0.1em 0.5em 0.1em;
     padding: 1.3em;
+    filter: blur(1.5px);
 }
 
 .card:hover {
     cursor: pointer;
     transform: scale(1.1);
-    transition: transform 4s ease;
+    transition: transform 4s ease, filter 4s ease;;
+    filter: blur(0px);
 }
 
 .card p:nth-child(2){
