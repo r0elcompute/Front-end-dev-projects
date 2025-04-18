@@ -128,8 +128,14 @@ main h1 {
     padding: 1.3em;
 }
 
-.card p:nth-of-type[] {
-    color: #333;
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 4s ease;
+}
+
+.card p:nth-child(2), .card p:nth-child(3){
+    color: #999;
 }
 
 
