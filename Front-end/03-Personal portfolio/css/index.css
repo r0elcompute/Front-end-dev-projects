@@ -14,8 +14,33 @@ body {
 
 #navbar {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5em;
+    margin-bottom: 3em;
 }
+
+#navbar span {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    list-style-type: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
 
 
