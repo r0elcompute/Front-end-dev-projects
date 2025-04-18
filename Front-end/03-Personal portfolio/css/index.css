@@ -96,6 +96,31 @@ main h1 {
     border-bottom: 1px solid black;
 }
 
+.projects button {
+    margin-top: 0.7em;
+    background-color: #219ebc;
+    color: #fff;
+    width: 14em;
+    height: 4em;
+    font-size: 1em;
+    border-radius: 1em;
+    animation: slide 4s ease-in-out 4s infinite forwards;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(100px);
+    }
+}
+
+.projects button:hover {
+    cursor: pointer;
+
+}
+
 .experience {
     display: flex;
     flex-direction: column;
