@@ -48,6 +48,14 @@ body {
     border-color: lightgreen;
 }
 
+.container input:valid {
+    border-color: green;
+}
+
+.container input:invalid {
+    border-color: red;
+}
+
 .container textarea {
     resize: none;
 }
