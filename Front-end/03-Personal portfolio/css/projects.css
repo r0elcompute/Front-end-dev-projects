@@ -1,3 +1,20 @@
 body {
-    background-color: #000814;
+    background-color: #023047;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body h1 {
+    color: #fb8500;
+    text-decoration: underline;
+    font-size: 2.3em;
+}
+
+.container {
+    border-right: 0.1em solid #4a5759;
+    border-left: 0.1em solid #4a5759;
+    padding: 3em;
 }
