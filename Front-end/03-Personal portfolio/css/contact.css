@@ -14,7 +14,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 2em;
-    background-color: #52717f;
+    background-color: #264653;
     width: 25em;
     height: 35em;
     margin: 10em;
@@ -25,7 +25,7 @@ body {
 .container h1 {
     font-size: 2em;
     font-family: monospace;
-    color: #fff;
+    color: #fb8500;
 }
 
 .container label {
