@@ -75,8 +75,15 @@ main h1 {
     color: #fff;
 }
 
-.flex-container p, .flex-container ul li{
+.flex-container p, .flex-container ul li {
     color: #8ecae6;
+}
+
+.flex-container ul li:hover {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 3s ease;
+    cursor: pointer;
 }
 
 /* .projects { */
