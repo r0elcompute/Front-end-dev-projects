@@ -6,7 +6,11 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #001219;
+}
+
+body p {
     color: #fff;
+    font-size: 1.2em;
 }
 
 body h1 {
@@ -14,10 +18,24 @@ body h1 {
     font-size: 3em;
 }
 
-body .container {
+body .container{
     background-color: #457b9d;
     border-radius: 1em;
     width: 40em;
-    height: 35em;
-    color: #331;
+    height: 40em;
+}
+
+article {
+    padding: 2em;
+}
+
+.container article p {
+    color: #dad7cd;
+}
+
+body article h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.6em;
+    color: #252422;
 }
