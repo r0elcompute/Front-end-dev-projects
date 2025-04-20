@@ -38,12 +38,13 @@ Coming soon...
 └──image1
 └──image3
 -----------------------------------------------------
-**css**
+**CSS**
 └── index.css
 └── projects.css
 └── articles.css
 └── contact.css
 -----------------------------------------------------
+**HTML**
 ── index.html
 ── projects.html
 ── articles.html
