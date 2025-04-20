@@ -1,3 +1,6 @@
+html {
+    font-size: 100%;
+}
 body {
     background-color: #023047;
     margin: 0;
@@ -13,17 +16,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 2rem;
     background-color: #264653;
-    width: 25em;
-    height: 35em;
-    margin: 10em;
-    border-radius: 2em;
-    box-shadow: 1em 0.1em 1em 1em;
+    width: 25rem;
+    height: 35rem;
+    margin: 10rem;
+    border-radius: 2rem;
+    box-shadow: 1rem 0.1rem 1rem 1rem;
 }
 
 .container h1 {
-    font-size: 2em;
+    font-size: 2rem;
+    text-align: center;
     font-family: monospace;
     color: #fb8500;
 }
@@ -31,16 +35,16 @@ body {
 .container label {
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
-    font-size: 1.2em;
-    margin-bottom: 1.5em;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .container input {
     width: 100%;
-    height: 1.3em;
+    height: 1.3rem;
     color: #023047;
-    font-size: 1.1em;
-    border-radius: 0.4em;
+    font-size: 1.1rem;
+    border-radius: 0.4rem;
 }
 
 .container input:focus {
@@ -63,7 +67,7 @@ body {
 .container  #submit {
     background-color: #669bbc;
     color: #000;
-    height: 1.5em;
+    height: 1.5rem;
 }
 
 .container #submit:hover {
