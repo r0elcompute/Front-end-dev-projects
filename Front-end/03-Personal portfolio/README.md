@@ -33,6 +33,7 @@ Coming soon...
 📁 **Folder Structure**
 
 03-Personal portfolio/
+-----------------------------------------------------
 **Images**
 └──image1
 └──image1
