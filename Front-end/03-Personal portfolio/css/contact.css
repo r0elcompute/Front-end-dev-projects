@@ -29,12 +29,12 @@ body {
 .container h1 {
     font-size: 2rem;
     text-align: center;
-    font-family: monospace;
+    font-family: Georama, monospace;
     color: #fb8500;
 }
 
 .container label {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Roboto;
     color: #fff;
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
