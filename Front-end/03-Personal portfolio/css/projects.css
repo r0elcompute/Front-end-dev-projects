@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sigmar&display=swap');
+html {
+    font-size: 100%;
+}
 body {
     background-color: #023047;
     color: #fff;
@@ -10,8 +14,9 @@ body {
 body h1 {
     color: #fb8500;
     text-decoration: underline;
-    font-size: 2.3em;
+    font-size: 2.3rem;
     align-self: first baseline;
+    font-family: Sigmar;
 }
 
 .aside {
@@ -19,18 +24,19 @@ body h1 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 7em;
-    margin-top: 2em;
-    border-left: 0.1em solid #4a5759;
-    padding: 1em;
+    gap: 7rem;
+    margin-top: 2rem;
+    border-left: 0.1rem solid #4a5759;
+    padding: 1rem;
 }
 
 .aside > * {
-    border-bottom: 1em solid #4a5759;
+    border-bottom: 1rem solid #4a5759;
+    font-family: sans-serif;
 }
 
 .container {
-    border-right: 0.1em solid #4a5759;
+    border-right: 0.1rem solid #4a5759;
     padding: 3em;
     display: flex;
     flex-direction: column;
