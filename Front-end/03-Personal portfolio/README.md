@@ -1,4 +1,4 @@
-🌐 Personal Portfolio Website
+🌐 **Personal Portfolio Website**
 
 This is my personal portfolio project built as part of the roadmap.sh Frontend path.
 It showcases a simple, clean layout using only HTML and CSS.
@@ -6,7 +6,7 @@ No frameworks—just raw fundamentals!
 
 ----------------------------------------------------
 
-✨ Features
+✨ **Features**
 
 - Home, About, and Contact sections
 - Contact form with styled input + fixed textarea
@@ -16,29 +16,30 @@ No frameworks—just raw fundamentals!
 
 ----------------------------------------------------
 
-🚀 Live Demo
+🚀 **Live Demo**
 
 Coming soon...
 (Planning to deploy on GitHub Pages or Netlify)
 
 ----------------------------------------------------
 
-🛠️ Built With
+🛠️ **Built With**
 
 - HTML5
 - CSS3 (using em units for typography)
 
 ----------------------------------------------------
 
-📁 Folder Structure
+📁 **Folder Structure**
 
 03-Personal portfolio/
 ├── index.html
+
 └── style.css
 
 ----------------------------------------------------
 
-🧠 What I Learned
+🧠 **What I Learned**
 
 - Structuring semantic HTML
 - Styling forms and layouts
@@ -47,7 +48,7 @@ Coming soon...
 
 ----------------------------------------------------
 
-📝 To-Do
+📝 **To-Do**
 
 [ ] Refactor em to rem for layout consistency  
 [ ] Make it fully responsive  
@@ -56,7 +57,7 @@ Coming soon...
 
 ----------------------------------------------------
 
-👨‍💻 Author
+👨‍💻 **Author**
 
 r0elcompute  
 GitHub: https://github.com/r0elcompute
