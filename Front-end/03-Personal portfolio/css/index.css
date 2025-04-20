@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-size: 100%;
 }
 
 body {
@@ -17,13 +18,13 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 0.5em;
-    margin-bottom: 7em;
+    margin-top: 0.5rem;
+    margin-bottom: 7rem;
 }
 
 #navbar span {
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2rem;
     color: #fff;
 }
 
@@ -31,13 +32,13 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 2rem;
     list-style-type: none;
 }
 
 #navbar ul li a {
     color: #219ebc;
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -52,7 +53,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 7em;
+    gap: 7rem;
 }
 
 main h1 {
@@ -65,10 +66,10 @@ main h1 {
     display: flex;
     justify-content: space-around;
     flex: 1;
-    gap: 10em;
-    border-top: 1px double #fff;
-    border-bottom: 1px solid #fff;
-    padding: 2em;
+    gap: 10rem;
+    border-top: 0.1rem double #fff;
+    border-bottom: 0.1rem solid #fff;
+    padding: 2rem;
 }
 
 .flex-container h2, .reviews h2 {
@@ -92,7 +93,7 @@ main h1 {
 
 .projects ul {
     list-style-type: none;
-    line-height: 3em;
+    line-height: 3rem;
 }
 
 .projects ul li {
@@ -100,13 +101,13 @@ main h1 {
 }
 
 .projects button {
-    margin-top: 0.7em;
+    margin-top: 0.7rem;
     background-color: #219ebc;
     color: #fff;
-    width: 14em;
-    height: 4em;
-    font-size: 1em;
-    border-radius: 1em;
+    width: 14rem;
+    height: 4rem;
+    font-size: 1rem;
+    border-radius: 1rem;
     animation: slide 4s ease-in-out 4s infinite forwards;
 }
 
@@ -128,9 +129,9 @@ main h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-left: 2px solid #fff;
-    border-right: 2px solid #fff;
-    padding: 0 2em;
+    border-left: 0.1rem solid #fff;
+    border-right: 0.1rem solid #fff;
+    padding: 0 2rem;
 }
 
 .experience h3 {
@@ -153,24 +154,24 @@ main h1 {
 .reviews {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 2rem;
 }
 
 .cards-container {
     display: flex;
     flex-wrap: nowrap;
-    gap: 3em;
+    gap: 3rem;
 }
 
 .card {
     display: flex;
-    width: 18em;
+    width: 18rem;
     flex-wrap: wrap;
     background-color: #caf0f8;
     color: #2d2d2d;
-    border-radius: 0.5em;
-    box-shadow: 0.1em 0.1em 0.5em 0.1em;
-    padding: 1.3em;
+    border-radius: 0.5rem;
+    box-shadow: 0.1rem 0.1rem 0.5rem 0.1rem;
+    padding: 1.3rem;
     filter: blur(1.5px);
     transition: transform 4s ease;
 }
@@ -188,12 +189,12 @@ main h1 {
 
 footer {
     text-align: center;
-    margin: 2em;
+    margin: 2rem;
 }
 
 footer small {
     color: #fff;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-style: italic;
 }
 
