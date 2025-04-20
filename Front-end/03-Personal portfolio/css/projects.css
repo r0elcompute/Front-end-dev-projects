@@ -44,4 +44,9 @@ body h1 {
     align-items: center;
 }
 
+.container div h2 {
+    font-weight: bold;
+    font-family: Georama;
+    text-decoration: underline;
+}
 /* media queries */
