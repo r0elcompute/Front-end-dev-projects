@@ -19,7 +19,7 @@ body h1 {
     font-family: Sigmar;
 }
 
-.aside {
+.middle {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -30,14 +30,14 @@ body h1 {
     padding: 1rem;
 }
 
-.aside > * {
+.middle > * {
     border-bottom: 1rem solid #4a5759;
     font-family: sans-serif;
 }
 
 .container {
     border-right: 0.1rem solid #4a5759;
-    padding: 3em;
+    padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
