@@ -65,10 +65,10 @@ Coming soon...
 
 📝 **To-Do**
 
-[ ] Refactor em to rem for layout consistency  
-[ ] Make it fully responsive  
-[ ] Add Google Fonts for better typography  
-[ ] Deploy and share it live!
+[✔️] Refactor em to rem for layout consistency  
+[✔️] Make it fully responsive  
+[✔️] Add Google Fonts for better typography  
+[✔️] Deploy and share it live!
 
 ----------------------------------------------------
 
