@@ -78,4 +78,29 @@ body {
     color: #fff;
 }
 
-/* media queries */
+/* responsiveness */
+@media (max-width: 500px){
+    html {
+        font-size: 50%;
+    }
+    .container input {
+        width: 80%;
+    }
+    .container textarea {
+        width: 17rem;
+        height: 8rem;
+    }
+}
+@media (min-width: 501px) and (max-width: 614px) {
+    html {
+        font-size: 60%;
+    }
+    .container input {
+        border-radius: 1rem;
+        width: 80%;
+    }
+    .container textarea {
+        width: 20rem;
+        height: 9rem;
+    }
+}
