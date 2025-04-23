@@ -5,19 +5,22 @@ html {
 }
 body {
     background-color: #023047;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    color: #fff; 
 }
 
 body h1 {
     color: #fb8500;
     text-decoration: underline;
     font-size: 2.3rem;
-    align-self: first baseline;
+    text-align: center;
     font-family: Sigmar;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .left {
@@ -65,4 +68,13 @@ body h1 {
     font-family: Georama;
     text-decoration: underline;
 }
-/* media queries */
+/* responsiveness */
+@media (max-width: 720px) {
+    html {
+        font-size: 50%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
