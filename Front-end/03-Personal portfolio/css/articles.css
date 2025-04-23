@@ -51,4 +51,31 @@ body > p {
     font-family: Nunito;
 }
 
-/* media queries */
+/* responsiveness */
+@media (max-width: 319px) {
+    html {
+        font-size: 40%;
+    }
+    body h1 {
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 320px) and (max-width: 720px) {
+    html {
+        font-size: 50%;
+    }
+    body h1 {
+        font-size: 1.8rem;
+    }
+    .disclaimer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        width: 50%;
+    }
+
+}
