@@ -1,7 +1,6 @@
-#Basic HTML website
+**Basic HTML website**
 
 This is a pretty basic HTML only webpage that is actually a portfolio, I am going to style it later on.
 
-##project link
-
-[project URL](https://roadmap.sh/projects/basic-html-website)
+**live preview**
+[link](https://01basicsite.netlify.app/)

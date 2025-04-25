@@ -18,8 +18,7 @@ No frameworks—just raw fundamentals!
 
 🚀 **Live Demo**
 
-Coming soon...
-(Planning to deploy on GitHub Pages or Netlify)
+[Click to view live demo](https://r0elcompute.netlify.app/)
 
 ----------------------------------------------------
 
