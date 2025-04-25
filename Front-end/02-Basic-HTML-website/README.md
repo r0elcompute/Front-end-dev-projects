@@ -4,4 +4,4 @@ This is a pretty basic HTML only webpage that is actually a portfolio, I am goin
 
 ##project link
 
-[roadmap.sh-basic html website](https://roadmap.sh/projects/basic-html-website)
+[project URL](https://roadmap.sh/projects/basic-html-website)
