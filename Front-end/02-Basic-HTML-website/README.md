@@ -1,4 +1,4 @@
 #Basic HTML website
 
 This is a pretty basic HTML only webpage that is actually a portfolio, I am going to style it later on.
-Here is the preview link heosted on netlify [here](https://01basicsite.netlify.app/)
+Here is the preview link hosted on netlify [here](https://01basicsite.netlify.app/)
