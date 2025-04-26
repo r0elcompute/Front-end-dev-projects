@@ -5,4 +5,4 @@ The website displays a CV in plain HTML but to be styled later on.
 
 **live preview**
 
-[link](https://rodgerscv.netlify.app/)
+[click to view live](https://rodgerscv.netlify.app/)
