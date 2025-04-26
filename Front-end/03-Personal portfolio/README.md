@@ -8,9 +8,9 @@ No frameworks—just raw fundamentals!
 
 ✨ **Features**
 
-- Home, About, and Contact sections
+- Home, Projects, Article, and Contact sections
 - Contact form with styled input + fixed textarea
-- Responsive layout (coming soon)
+- Responsive layout
 - Clean folder & file structure
 - Built from scratch—no libraries or frameworks
 
