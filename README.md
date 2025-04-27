@@ -14,3 +14,7 @@ This repo contains solutions to problems posed at [roadmap.sh](https://roadmap.s
 
 **project 3: 03-Personal portfolio** 
 [project URL](https://roadmap.sh/projects/portfolio-website)
+
+
+**project 4: 04-Changelog component**
+[project URL](https://roadmap.sh/projects/changelog-component)
