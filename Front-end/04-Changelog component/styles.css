@@ -48,11 +48,28 @@ header p {
 }
 
 .middle {
-    height: 80%;
-    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 0.1rem;
     background-color: #fff;
 }
 
+.knot-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.knot {
+    width: 0.5rem;
+    height: 0.3rem;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
 .right {
     font-size: 1rem;
     display: flex;
@@ -76,4 +93,21 @@ button {
 button:hover {
     background-color: #5c677d;
     color: #000000;
+}
+
+/* responsiveness */
+
+
+@media (max-width: 354px) {
+    html {
+        font-size: 8px;
+    }
+    .knot-container {
+        gap: 1.2rem;
+    }
+}
+@media (max-width: 720px) {
+    html {
+        font-size: 10px;
+    }
 }
