@@ -8,9 +8,9 @@ No frameworks—just raw fundamentals!
 
 ✨ **Features**
 
-- Home, About, and Contact sections
+- Home, Projects, Article, and Contact sections
 - Contact form with styled input + fixed textarea
-- Responsive layout (coming soon)
+- Responsive layout
 - Clean folder & file structure
 - Built from scratch—no libraries or frameworks
 
@@ -65,9 +65,9 @@ No frameworks—just raw fundamentals!
 📝 **To-Do**
 
 [✔️] Refactor em to rem for layout consistency  
-[] Make it fully responsive  
+[✔️] Make it fully responsive  
 [✔️] Add Google Fonts for better typography  
-[] Deploy and share it live!
+[✔️] Deploy and share it live!
 
 ----------------------------------------------------
 
