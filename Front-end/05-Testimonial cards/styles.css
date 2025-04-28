@@ -16,14 +16,25 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 2rem;
 }
 
 .small-card {
-    width: 6rem;
-    height: 5rem;
-    background-color: #000;
+    width: 30rem;
+    height: 20rem;
+    background-color: #fff;
+    border: 0.1rem solid #000;
+    border-radius: 50%;
+    margin: 1rem;
 }
 
+
+.big-card {
+    width: 38rem;
+    height: 20rem;
+    border: 0.1rem solid #000;
+    margin: 1rem;
+}
