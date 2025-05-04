@@ -18,3 +18,7 @@ This repo contains solutions to problems posed at [roadmap.sh](https://roadmap.s
 
 **project 4: 04-Changelog component**
 [project URL](https://roadmap.sh/projects/changelog-component)
+
+
+**project 5: 05-Testimonial cards**
+[project URL](https://roadmap.sh/projects/testimonial-cards)
